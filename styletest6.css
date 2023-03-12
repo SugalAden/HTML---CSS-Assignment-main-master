@@ -45,11 +45,11 @@
     border: none;
     color: white;
     padding: 4px;
-    margin-top: -4vh;
+    margin-top: -4vw;
     border-radius: 3px;
     display: flex;
     font-size: 3.4vw;
-    margin-left: -6vh;
+    margin-left: -9vw;
 }
 
 @media screen and (min-width: 768px) {
