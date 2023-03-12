@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Light.ttf") format("ttf"),
+    url("/fonts/OpenSans-Light.ttf") format("ttf");
+}
+
+body {
+  background-color: #e5ebf1;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  width: 10vh;
+}
+
+h1 {
+  font-size: 5.8vw;
+}
+
+.thankYou {
+  font-size: 5vw;
+}
+
+.billing {
+  margin-top: 2vw;
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+.Order-confirmation_img {
+  width: 71vw;
+  margin-left: 7vw;
+  margin-top: 3vw;
+}
+
+.welcome_page_button {
+  background-color: #6979f8;
+  border: none;
+  color: white;
+  padding: 4px;
+  margin-top: 5%;
+  border-radius: 3px;
+  display: flex;
+  font-size: 4.9vw;
+  margin-left: 28vw;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.8vw;
+  }
+
+  .thankYou {
+    font-size: 3vw;
+  }
+
+  .billing {
+    margin-top: 2vw;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  .Order-confirmation_img {
+    width: 36vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: 3%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.4vw;
+    margin-left: 14vw;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 2.8vw;
+  }
+
+  .thankYou {
+    font-size: 2vw;
+  }
+
+  .billing {
+    margin-top: 2vw;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+
+  .Order-confirmation_img {
+    width: 26vw;
+    margin-left: 3vw;
+    margin-top: 0vw;
+}
+.welcome_page_button {
+  background-color: #6979f8;
+  border: none;
+  color: white;
+  padding: 4px;
+  margin-top: 2%;
+  border-radius: 3px;
+  display: flex;
+  font-size: 2.4vw;
+  margin-left: 9vw;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .Order-confirmation_img {
+    width: 20vw;
+    margin-left: 2vw;
+}
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: 1%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.4vw;
+    margin-left: 5.5vw;
+}
+}

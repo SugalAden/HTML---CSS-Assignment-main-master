@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Light.ttf") format("ttf"), url("/fonts/OpenSans-Light.ttf")
+        format("ttf");
+  }
+
+
+body{
+    background-color: #E5EBF1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+html {
+    box-sizing: border-box;
+   }
+   html:focus-within {
+    scroll-behavior: smooth;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+   }
+
+/* checkout-success.html CSS */
+
+.order-confirmation {
+    text-align: center;
+    margin-left: 1%;
+}
+
+.billing-rectangle {
+    margin-top: -59%;
+    margin-bottom: 6%;
+    margin-left: -3%;
+    z-index:-1;
+    position: relative;
+}
+
+.Back-BTN {
+    margin-left: -99%;
+}
+
+.billing {
+    margin-left: 1%;
+}
+
+.Order-confirmation_img {
+    width: 60%;
+    margin-left: 17%;
+}
+
+
+.nav-img {
+    width: 117%;
+    margin-top: 10%;
+    margin-left: -4.5%;
+}
+
+.nav-about {
+    margin-top: -45%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+.nav-contact-us {
+    margin-top: -45%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+.nav-jackets {
+    margin-top: -45%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+.nav-vector {
+    margin-top: -35%;
+    margin-bottom: 11.5%;
+    margin-left: 6%;
+}
+.home-button {
+    border-radius: 124px;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-bottom: 1%;
+    outline: turquoise;
+    border-color: white;
+    width: 59%;
+}
+
+/* Media Query For Res: 640 */
+
+@media (min-width: 640px) {
+    .order-confirmation{
+        margin-left: -59%;
+        font-size: 14px;
+    }
+
+    .Back-BTN {
+        margin-left: -25%;
+       }
+
+
+
+    .thank-you {
+        margin-left: -18%;
+        margin-top: -1%; 
+}
+
+.order-placed {
+    margin-left: -7.0%;
+}
+ .email-sent {
+    margin-left: 26%;
+ }
+
+    .Order-confirmation_img {
+        width: 24%;
+        margin-left: 51%;
+        margin-top: -34%;
+        margin-bottom: 7%;
+    }
+    .nav-img, .nav-about, .nav-contact-us, .nav-jackets, .nav-vector {
+        display: none;
+    }
+    
+    .home-button {
+        margin-left: 1%;
+        margin-top: -6%;
+        width: 42%;
+    }
+    .billing-rectangle {
+        margin-top: -23%;
+        width: 40%;
+        height: 121px;
+        margin-right: 61%;
+}
+
+    .billing {
+    margin-top: 2%;
+    margin-left: 4%;
+    }
+
+    }
+   
+    /* Media Query For Res: 768 */
+
+    @media (min-width: 768px) {
+        .order-confirmation{
+            margin-left: -73%;
+            font-size: 12px;
+        }
+
+        .Back-BTN {
+            margin-left: -15%;
+           }
+        
+        .billing {
+            margin-top: 7%;
+            margin-left: 4%;
+        }
+
+
+        .Order-confirmation_img {
+            width: 24%;
+            margin-left: 51%;
+            margin-top: -21%;
+            margin-bottom: 10%;
+}
+        .thank-you {
+            margin-left: -11%;
+            margin-top: -1%;
+        }
+        .order-placed {
+            margin-left: -4%;
+        }
+
+        .email-sent {
+            margin-left: 17.8%;
+        }
+
+        .billing-rectangle {
+            margin-top: -36%;
+            width: 40%;
+            height: 121px;
+            margin-left: -4%;
+            margin-bottom: 3%;
+        }
+        
+        .billing-title {
+            margin-top: -6%;
+        }
+        .billing {
+            font-size: 15px;
+            margin-left: 0%;
+        }
+        .home-button {
+            margin-left: 1%;
+            margin-top: -14%;
+            width: 42%;
+        }
+
+        
+        
+    }
+    /* Media Query For Res: 1024 */
+
+    @media (min-width: 1024px) {
+        .order-confirmation{
+            margin-left: -79%;
+        }
+        .Back-BTN {
+            margin-left: -11%;
+           }
+
+        .thank-you {
+            margin-left: -8%;
+            margin-top: -1%;
+        }
+        .order-placed {
+            margin-left: -2.9%;
+            margin-top: 0%;
+        }
+
+        .email-sent {
+            margin-left: 12.5%;
+        }
+
+        .billing-rectangle {
+            margin-top: -36%;
+            width: 40%;
+            height: 125px;
+            margin-left: -1%;
+            margin-bottom: 2%;
+        }
+        
+        .billing {
+            margin-top: 8%;
+            margin-left: 0%;
+        }
+
+    }
+
+    /* Media Query For Res: 1080 */
+
+    @media (min-width: 1080px) {
+        .email-sent {
+            margin-left: 11.9%;
+        }
+
+        .order-placed {
+            margin-left: -2.9%;
+            margin-top: 0%;
+        }
+
+
+    }
+
+
+/* Media Query For Res: 1440 */
+
+    @media (min-width: 1440px) {
+        .order-confirmation {
+            margin-left: -86%;
+            font-size: 12px;
+        }
+        .Back-BTN {
+            margin-left: -7%;
+           }
+
+           h1 {
+            margin-left: 0.5%;
+           }
+
+        .thank-you {
+            margin-left: -3.7%;
+            margin-top: 0%;
+            font-size: 20px;
+        }
+        .order-placed {
+            margin-left: 2.1%;
+            margin-top: 0%;
+            font-size: 20px;
+        }
+
+        .email-sent {
+            margin-left: 19.8%;
+            font-size: 20px;
+        }
+
+        .billing-rectangle {
+            margin-top: -36%;
+            width: 31%;
+            height: 165px;
+            margin-left: -1%;
+            margin-bottom: 2%;
+        }
+
+        .billing {
+            margin-top: 8%;
+            margin-left: 0%;
+            font-size: 20px;
+        }
+        .Order-confirmation_img {
+            width: 24%;
+            margin-left: 60%;
+            margin-top: -23%;
+            margin-bottom: 10%;
+        }
+
+        .home-button {
+            margin-left: 1%;
+            margin-top: -13%;
+            width: 42%;
+        }
+        
+    }
+/* Media Query For Res: 1536 */
+
+    @media (min-width: 1536px) {
+        .thank-you {
+            margin-left: -3.0%;
+            margin-top: 0%;
+            font-size: 25px;
+        }
+        .order-placed {
+            margin-left: 4%;
+            margin-top: 0%;
+            font-size: 25px;
+        }
+
+        .email-sent {
+            margin-left: 24.7%;
+            font-size: 25px;
+        }
+
+        .billing-rectangle {
+            margin-top: -36%;
+            width: 31%;
+            height: 215px;
+            margin-left: -1%;
+            margin-bottom: 2%;
+        }
+        .billing {
+            margin-top: 8%;
+            margin-left: 1%;
+            font-size: 25px;
+        }
+        .home-button {
+            margin-left: 1%;
+            margin-top: -13%;
+            width: 42%;
+        }
+
+
+    }
+
+
+
+
+
+

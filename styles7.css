@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Light.ttf") format("ttf"),
+    url("/fonts/OpenSans-Light.ttf") format("ttf");
+}
+
+body {
+  background-color: #e5ebf1;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* contact.html CSS */
+
+.error {
+  display: none;
+  color: red;
+}
+
+.contact {
+  text-align: center;
+}
+
+input {
+  margin-left: 5.2vh;
+}
+
+#email {
+  margin-left: 5.5vh;
+}
+
+#lastName {
+  margin-left: 0vh;
+}
+#number {
+  margin-left: 3vh;
+}
+
+.contact-button {
+  border-radius: 124px;
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  outline: turquoise;
+  border-color: white;
+  width: 82%;
+}
+
+.nav-img {
+  width: 107%;
+  margin-top: 76%;
+  margin-left: -3.5%;
+}
+
+.nav-about {
+  margin-top: -45%;
+  margin-bottom: 10%;
+  margin-left: 6%;
+}
+
+.nav-contact-us {
+  margin-top: -45%;
+  margin-bottom: 10%;
+  margin-left: 6%;
+}
+
+.nav-jackets {
+  margin-top: -45%;
+  margin-bottom: 10%;
+  margin-left: 6%;
+}
+
+.nav-vector {
+  margin-top: -35%;
+  margin-bottom: 11.5%;
+  margin-left: 6%;
+}
+.contact-img {
+  display: none;
+}
+
+.error {
+  display: none;
+}
+
+/* Media Query For Res: 640 */
+
+@media (min-width: 640px) {
+  .nav {
+    display: none;
+  }
+
+  .Back-BTN {
+    margin-left: -13%;
+  }
+
+  .contact {
+    margin-left: -74%;
+  }
+  .contact-img {
+    display: none;
+    width: 40%;
+    margin-left: 55%;
+    margin-top: -2%;
+  }
+
+  .contact-form {
+    margin-top: 6%;
+  }
+
+  #name {
+    margin-left: 5.2vh;
+    position: relative;
+  }
+
+  #number {
+    margin-left: 3vh;
+    position: relative;
+  }
+  .phone-number {
+    margin-left: 6%;
+  }
+  .contact-button {
+    border-radius: 124px;
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    outline: turquoise;
+    border-color: white;
+    width: 62%;
+  }
+}
+
+/* Media Query For Res: 768 */
+
+@media (min-width: 768px) {
+  p {
+    line-height: 23px;
+  }
+
+  .Back-BTN {
+    margin-left: -11%;
+  }
+
+  .contact {
+    margin-left: -79%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .contact-img {
+    display: block;
+    width: 40%;
+    margin-left: 55%;
+    margin-top: -2%;
+  }
+
+  .contact-form {
+    margin-top: -28%;
+  }
+}
+
+/* Media Query For Res: 1024 */
+
+@media (min-width: 1024px) {
+  p {
+    line-height: 23px;
+  }
+  .Back-BTN {
+    margin-left: -7%;
+  }
+
+  .contact {
+    margin-left: -85%;
+  }
+
+  h1 {
+    margin-left: 1%;
+  }
+
+  .contact-button {
+    border-radius: 124px;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    outline: turquoise;
+    border-color: white;
+    width: 54%;
+  }
+  .contact-img {
+    display: block;
+    width: 33%;
+    margin-left: 55%;
+    margin-top: -5%;
+  }
+  .contact-form {
+    margin-top: -19%;
+  }
+}
+
+/* Media Query For Res: 1440 */
+
+@media (min-width: 1440px) {
+  p {
+    line-height: 23px;
+    font-size: 20px;
+  }
+
+  .Back-BTN {
+    margin-left: -5%;
+  }
+
+  .contact-form {
+    margin-top: -19%;
+    font-size: 20px;
+  }
+
+  .contact {
+    margin-left: -90%;
+  }
+
+  .contact-button {
+    border-radius: 124px;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    outline: turquoise;
+    border-color: white;
+    width: 54%;
+  }
+  .contact-img {
+    display: block;
+    width: 33%;
+    margin-left: 55%;
+    margin-top: -5%;
+  }
+  .contact-form {
+    margin-top: -19%;
+  }
+
+  #number {
+    margin-left: 3.9vh;
+  }
+
+  #lastName {
+    margin-left: 0.6vh;
+  }
+  #name {
+    margin-left: 6.2vh;
+  }
+  #email {
+    margin-left: 6.6vh;
+  }
+}
+/* Media Query For Res: 1536 */
+@media (min-width: 1536px) {
+  .last-name {
+    margin-left: 4.8%;
+  }
+}

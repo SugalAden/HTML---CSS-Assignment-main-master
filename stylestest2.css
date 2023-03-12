@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Light.ttf") format("ttf"),
+    url("/fonts/OpenSans-Light.ttf") format("ttf");
+}
+
+body {
+  background-color: #e5ebf1;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  width: 10vh;
+}
+
+.jacketInfo {
+  white-space: pre-line;
+  font-size: 2.2vh;
+  margin-top: -4vh;
+}
+
+.heroImage {
+  width: 50%;
+  height: 16vw;
+}
+.jacketCotainer {
+  display: grid;
+  grid-template-areas:
+    "jacket1 jacket2"
+    "jacket3 jacket4";
+}
+
+.microLightJacket {
+  grid-area: jacket1;
+}
+
+.expeditionJacket {
+  grid-area: jacket2;
+}
+
+.senjaJacket {
+  grid-area: jacket3;
+}
+
+.ulrikenJacket {
+  grid-area: jacket4;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    text-align: center;
+    margin-top: -2vh;
+  }
+  .jacketInfo {
+    text-align: center;
+    margin-top: -4vh;
+  }
+
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 31%;
+    grid-template-columns: max-content;
+  }
+
+  .expeditionJacket {
+    margin-left: 3%;
+  }
+
+  .ulrikenJacket {
+    grid-area: jacket4;
+    margin-left: 4%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 36%;
+    grid-template-columns: max-content;
+  }
+}
+
+@media screen and (min-width: 1178px) {
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 38%;
+    grid-template-columns: max-content;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 40%;
+    grid-template-columns: max-content;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .jacketCotainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    margin-left: 43%;
+    grid-template-columns: max-content;
+  }
+}

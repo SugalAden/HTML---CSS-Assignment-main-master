@@ -1,0 +1,410 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Light.ttf") format("ttf"),
+    url("/fonts/OpenSans-Light.ttf") format("ttf");
+}
+
+body {
+  background-color: #e5ebf1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  height: fit-content;
+}
+
+.logo {
+  width: 10vh;
+}
+
+.contact_us_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -8%;
+  margin-top: -4%;
+  animation: transitionIn 0.8s;
+}
+label {
+  display: block;
+  font-size: 3vw;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  font-family: "Gothic-2";
+  animation: transitionIn 0.8s;
+}
+input[type="text"] {
+  border-radius: 299px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  height: 5vw;
+  width: 44vw;
+}
+input[type="number"] {
+  border-radius: 299px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  height: 5vw;
+  width: 44vw;
+}
+
+/*.myOrderDetails {
+  position: absolute;
+  left: 21vh;
+  top: 12vh;
+} */
+
+.myOrderDetails {
+  font-size: 5vw;
+  margin-left: -13%;
+  margin-top: -16%;
+  grid-area: jacket2;
+}
+.my-order {
+  display: grid;
+  grid-template-areas: "jacket1 jacket2";
+}
+
+#name {
+  margin-bottom: 1vh;
+  border-radius: 315px;
+}
+#email {
+  margin-left: 3.8vh;
+  margin-bottom: 1vh;
+  border-radius: 315px;
+}
+
+#number {
+  margin-left: 1.6vh;
+  margin-bottom: 1vh;
+  border-radius: 315px;
+}
+
+#address {
+  margin-left: 1.3vh;
+  margin-bottom: 1vh;
+  border-radius: 315px;
+}
+
+#card {
+  margin-left: 4.4vh;
+  margin-bottom: 1vh;
+  border-radius: 315px;
+}
+
+#cvc {
+  margin-left: 0.5vh;
+  border-radius: 315px;
+}
+
+.contactForm {
+  margin-top: 1vh;
+}
+
+.summary {
+  text-align: center;
+  font-size: 4.4vw;
+}
+.summary,
+.discount,
+.vat,
+.shipping-cost,
+.total-price {
+  font-weight: bold;
+}
+
+.price {
+  position: absolute;
+  left: 34vh;
+  top: 60vh;
+}
+
+.vat-price {
+  position: absolute;
+  left: 34vh;
+  top: 63.9vh;
+}
+
+.free-shipping {
+  position: absolute;
+  left: 34vh;
+  top: 67vh;
+}
+
+.summary-price {
+  position: absolute;
+  left: 34vh;
+  top: 70.9vh;
+}
+
+.orderSummary {
+  line-height: 2vh;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  margin-top: -2%;
+  border-collapse: collapse;
+  font-size: 4vw;
+}
+.welcome_page_button {
+  background-color: #6979f8;
+  border: none;
+  color: white;
+  padding: 4px;
+  margin-top: 8%;
+  border-radius: 3px;
+  display: flex;
+  font-size: 4.9vw;
+  margin-left: 34vw;
+}
+
+.orderJacket {
+  grid-area: jacket1;
+  width: 35vw;
+}
+
+h1 {
+  font-size: 7vw;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4.6vw;
+
+    text-align: center;
+  }
+
+  .orderJacket {
+    grid-area: jacket1;
+    width: 22vw;
+  }
+  .myOrderDetails {
+    font-size: 2.9vw;
+    margin-left: -26%;
+    margin-top: -7%;
+    grid-area: jacket2;
+  }
+
+  .contactForm {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 33%;
+  }
+
+  label {
+    font-size: 2vw;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    margin-top: -2%;
+    border-collapse: collapse;
+    font-size: 2.7vw;
+  }
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: 6%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.9vw;
+    margin-left: 41vw;
+  }
+  .my-order {
+    display: grid;
+    grid-template-areas: "jacket1 jacket2";
+    margin-left: 28%;
+  }
+  #card,
+  #name,
+  #number,
+  #address,
+  #cvc,
+  #email {
+    margin-left: 4.4vh;
+    height: 2.2vw;
+    border-radius: 315px;
+    height: 3vw;
+    width: 24vw;
+  }
+
+  #name {
+    margin-bottom: 1%;
+  }
+  #email {
+    margin-left: 7.5vw;
+    margin-bottom: 1%;
+  }
+
+  #number {
+    margin-left: 5.3vw;
+    margin-bottom: 1%;
+  }
+
+  #address {
+    margin-left: 5vw;
+    margin-bottom: 1%;
+  }
+
+  #card {
+    margin-left: 8vw;
+    margin-bottom: 1%;
+  }
+
+  #cvc {
+    margin-left: 4.4vw;
+    margin-bottom: 1%;
+  }
+
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: 59%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.9vw;
+    margin-left: -5vw;
+  }
+  .contactForm {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    margin-top: -2%;
+    border-collapse: collapse;
+    font-size: 2.3vw;
+    margin-left: 1%;
+    height: 4vw;
+  }
+
+  input {
+  }
+
+  .summary {
+    font-weight: bold;
+    margin-left: -3%;
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 2.2vw;
+
+    text-align: center;
+  }
+
+  .myOrderDetails {
+    font-size: 2.4vw;
+    margin-left: -37%;
+    margin-top: -1%;
+    grid-area: jacket2;
+  }
+
+  #name {
+    margin-bottom: 1%;
+    margin-left: 3.9vw;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    margin-top: -2%;
+    border-collapse: collapse;
+    font-size: 2.2vw;
+    margin-left: 1%;
+    height: 4vw;
+  }
+  .summary {
+    font-weight: bold;
+    margin-left: -3%;
+    font-size: 2.3vw;
+  }
+  .orderJacket {
+    grid-area: jacket1;
+    width: 14vw;
+  }
+  .my-order {
+    display: grid;
+    grid-template-areas: "jacket1 jacket2";
+    margin-left: 33%;
+  }
+  .myOrderDetails {
+    font-size: 1.7vw;
+    margin-left: -56%;
+    margin-top: -2%;
+    grid-area: jacket2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  summary {
+    font-weight: bold;
+    margin-left: -3%;
+    font-size: 2.1vw;
+  }
+  .contactForm {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    margin-top: -2%;
+    border-collapse: collapse;
+    font-size: 1.9vw;
+    margin-left: 0%;
+    height: 4vw;
+  }
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: 77%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.5vw;
+    margin-left: -5vw;
+  }
+
+  input[type="text"] {
+    border-radius: 306px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    height: 3vw;
+    width: 35vw;
+  }
+
+  input[type="number"] {
+    border-radius: 299px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    height: 3vw;
+    width: 35vw;
+  }
+  label {
+    font-size: 1.4vw;
+  }
+}

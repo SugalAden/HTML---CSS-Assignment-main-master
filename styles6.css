@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Light.ttf") format("ttf"), url("/fonts/OpenSans-Light.ttf")
+        format("ttf");
+  }
+
+
+body{
+    background-color: #E5EBF1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+html {
+    box-sizing: border-box;
+   }
+   html:focus-within {
+    scroll-behavior: smooth;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+   }
+
+
+/* about.html CSS*/
+
+article {
+    font-size: 12px;
+
+}
+.nav-img {
+    width: 107%;
+    margin-top: 30%;
+    margin-left: -3.5%;
+}
+
+.nav-about {
+    margin-top: -45%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+.nav-contact-us {
+    margin-top: -45%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+.nav-jackets {
+    margin-top: -45%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+.nav-vector {
+    margin-top: -35%;
+    margin-bottom: 11.5%;
+    margin-left: 6%;
+}
+
+ /* Media Query For Res: 640 */
+
+
+@media (min-width: 640px) {
+    .nav-img {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+
+
+    h1 {
+        margin-left: 0%;
+    }
+
+    .about {
+        font-size: 12px;
+        margin-top: 1%;
+    }
+
+
+    .about_img {
+        margin-top: -79%;
+        margin-bottom: -41%;
+        margin-left: 1%;
+        width: 70%;
+    }
+
+
+}
+
+ /* Media Query For Res: 768 */
+
+@media (min-width: 1024px) {
+    .about_img {
+    margin-top: -89%;
+    margin-bottom: -29%;
+    margin-left: -1%;
+    width: 58%;
+    }
+
+.about {
+    font-size: 19px;
+}
+
+}
+/* Media Query For Res: 1440 */
+@media (min-width: 1440px) {
+    .about_img {
+    margin-top: -101%;
+    margin-bottom: -25%;
+    margin-left: -1%;
+    width: 48%;
+    }
+
+    h1 {
+        margin-left: 0%;
+    }
+}
+/* Media Query For Res: 1536 */
+@media (min-width: 1536px) {
+    h1 {
+        margin-left: 0%;
+    }
+}
+
+
+
+
+

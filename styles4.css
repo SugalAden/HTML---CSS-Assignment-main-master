@@ -1,0 +1,448 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Light.ttf") format("ttf"), url("/fonts/OpenSans-Light.ttf")
+        format("ttf");
+  }
+
+body{
+    background-color: #E5EBF1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+html {
+    box-sizing: border-box;
+   }
+   html:focus-within {
+    scroll-behavior: smooth;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+   }
+
+
+/* checkout.html CSS */
+
+.order-title {
+font-size: 12px;
+}
+
+.my-order {
+    width: 100%;
+}
+.checkout-form {
+    margin-left: -1%;
+    width: 73%;
+    margin-top: 21%;
+}
+
+
+.nav-img {
+    width: 100%;
+    margin-top: 73%;
+    margin-left: -0.5%;
+}
+
+.nav-about {
+    margin-top: -45%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+.nav-contact-us {
+    margin-top: -45%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+.nav-jackets {
+    margin-top: -45%;
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+.nav-vector {
+    margin-top: -35%;
+    margin-bottom: 11.5%;
+    margin-left: 6%;
+}
+
+.full-name {
+    margin-left: 1%;
+    margin-top: 11%;
+}
+.email {
+    margin-left: 11%;
+}
+.phone-number {
+    margin-left: 4%;
+}
+
+.address {
+    margin-left: 4%;
+}
+
+.card {
+    margin-left: 13%;
+}
+
+.date {
+    margin-left: 13%;
+}
+
+.cvc {
+    margin-left: 3%;
+}
+.order-summary {
+    margin-top: 1%;
+}
+
+.price {
+    margin-top: 1%;
+    margin-top: -11%;
+    margin-left: 80%;
+}
+
+.vat-price {
+    margin-top: -11%;
+    margin-left: 80%
+
+}
+
+.free-shipping {
+    margin-top: -11%;
+    margin-left: 69%;
+}
+
+.summary-price {
+    margin-top: -12%;
+    margin-left: 75%;
+}
+
+
+
+.pay-button {
+    border-radius: 124px;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-bottom: 1%;
+    outline: turquoise;
+    border-color: white;
+    width: 82%;
+}
+
+
+
+.jacket-frame {
+    width: 60%;
+    margin-left: -3%;   
+}
+
+.spesific-jacket {
+    margin-top: -70%;
+    margin-left: 21%;
+    margin-bottom: 13%;
+    margin-left: 2%;
+    width: 45%;
+}
+.my-order_details {
+    margin-top: -71%;
+    margin-left: 61%;
+}
+
+.desktop-checkout_form {
+    display: none;
+}
+.desktop-order_summary {
+    display: none;
+}
+
+/* Media Query For Res: 640 */
+
+@media (min-width: 640px) {
+
+    .my-order {
+        width: 40%;
+    }
+
+    .my-order_details {
+        margin-top: -30%;
+        margin-left: 24%;
+    }
+
+    .price-2 {
+        margin-left: 71%;
+        margin-top: -12%;
+    }
+
+    .vat-price_2{
+        margin-left: 71%;
+        margin-top: -12%;
+    
+    }
+
+    .free-shipping_2 {
+        margin-left: 70%;
+        margin-top: -12%;  
+    }
+
+   
+    .desktop-order_summary {
+        margin-top: -70%;
+        margin-left: 51%;
+        display: block;
+    }
+    .price2 {
+        margin-left: 71%;
+        margin-top: -12%;
+    }
+    
+    .pay-button {
+        border-radius: 124px;
+        margin-top: 1%;
+        margin-left: 33%;
+        margin-bottom: 1%;
+        border-color: white;
+        width: 62%;
+    }
+    .desktop-checkout_form {
+        display: block;
+    }
+    .full-name_2 {
+        margin-top: 7%;
+    }
+    .email-2 {
+        margin-top: -3%;
+        margin-left: 3.5%;
+    }
+
+    .last-name_2 {
+        margin-top: -3%;
+        margin-left: 0%;
+    }
+
+    .phone-number-2 {
+        margin-left: 1.6%;
+    }
+    
+    .address-2 {
+        margin-left: 1.6%;
+    }
+
+    .card-2 {
+        margin-left: 4.6%;
+    }
+    .date-2{
+        margin-left: 4.6%;
+    }
+    .cvc-2 {
+        margin-left: 1.5%;
+    }
+
+    
+.checkout-form {
+    display: none;
+    }
+
+    .order-summary {
+        display: none;
+    }
+
+    
+    
+}
+
+/* Media Query For Res: 768 */
+
+@media (min-width: 768px) {
+    .desktop-order_summary {
+        margin-top: -62%;
+        margin-left: 51%;
+        display: block;
+    }
+    .summary-price {
+        margin-top: -12%;
+        margin-left: 72%;
+    }
+
+    .free-shipping_2 {
+        margin-left: 71%;
+        margin-top: -12%;
+    }
+
+    .my-order_details {
+        margin-top: -27%;
+        margin-left: 24%;
+    }
+
+    .desktop-checkout_form {
+        display: block;
+        margin-top: 4%;
+    }
+
+
+}
+
+/* Media Query For Res: 1024 */
+
+@media (min-width: 1024px) {
+    .desktop-order_summary {
+        margin-top: -51%;
+        margin-right: 14%;
+        margin-left: 53%;
+    }
+    .desktop-checkout_form {
+        display: block;
+        margin-top: 7%;
+    }
+
+    .summary-2 {
+        margin-top: 1%;
+    }
+    .full-name_2 {
+        margin-top: 7%;
+    }
+    .email-2 {
+        margin-top: -3%;
+        margin-left: 2.5%;  
+    }
+
+    .last-name_2 {
+        margin-top: -3%;
+        margin-left: 0.2%;
+    }
+
+    .phone-number-2 {
+        margin-left: 1.1%;
+    }
+    
+    .address-2 {
+        margin-left: 1.1%;
+    }
+
+    .card-2 {
+        margin-left: 3.5%;
+    }
+    .date-2{
+        margin-left: 3.6%;
+    }
+    .cvc-2 {
+        margin-left: 1.5%;
+    }
+    
+}
+
+/* Media Query For Res: 1080 */
+
+@media (min-width: 1080px) {
+    .my-order_details {
+        margin-top: -27%;
+        margin-left: 24%;
+    }
+    .desktop-order_summary {
+        margin-top: -49%;
+        margin-right: 14%;
+        margin-left: 53%;
+    }
+
+
+}
+
+/* Media Query For Res: 1440 */
+
+
+@media (min-width: 1440px) {
+    .desktop-order_summary {
+        margin-top: -45%;
+        margin-right: 14%;
+        margin-left: 53%;
+        font-size: 23px;
+    }
+
+    .desktop-order_summary {
+        margin-top: -46%;
+        margin-right: 14%;
+        margin-left: 53%;
+        font-size: 23px;
+    }
+
+    .pay-button {
+        border-radius: 124px;
+        margin-top: 1%;
+        margin-left: 38%;
+        margin-bottom: 1%;
+        border-color: white;
+        width: 50%;
+    }
+
+    .my-order_details {
+        margin-top: -27%;
+        margin-left: 24%;
+        font-size: 23px;
+    }
+
+
+    .full-name_2 {
+        margin-top: 7%;
+    }
+    .email-2 {
+        margin-top: -3%;
+        margin-left: 1.5%;
+    }
+
+    .last-name_2 {
+        margin-top: -3%;
+        margin-left: 0.2%;
+    }
+
+    .phone-number-2 {
+        margin-left: 1.1%;
+    }
+    
+    .address-2 {
+        margin-left: 1.1%;
+    }
+
+    .card-2 {
+        margin-left: 2.5%;
+    }
+    .date-2{
+        margin-left: 2.6%;
+    }
+    .cvc-2 {  
+        margin-left: 1.1%;
+
+}
+.spesific-jacket {
+    margin-top: -70%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    width: 45%;
+}
+
+
+
+}
+
+
+/* Media Query For Res: 1536 */
+
+@media (min-width: 1536px) {
+    .my-order_details {
+        margin-top: -27%;
+        margin-left: 24%;
+    }
+    .summary-2 {
+    margin-top: 7%;
+}
+}
+
+    
+
+
+
+
+
