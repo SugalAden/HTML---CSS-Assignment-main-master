@@ -1,26 +1,79 @@
 body {
   color: red;
+  background-color: aqua;
 }
-
-.test {
+h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.contact_us_form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: -8%;
-  margin-top: -4%;
+.banner{
+  
+} 
+
+.banner h2 {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  display: inline-block;
+  font-size: 1.75em;
+  opacity: 1;
+  padding: 0.35em 1em;
+  position: relative;
+  z-index: 1;
 }
-label {
+
+.banner h2:before{
+  -moz-transition: width 0.85s ease;
+  -webkit-transition: width 0.85s ease;
+  -ms-transition: width 0.85s ease;
+  transition: width 0.85s ease;
+  -moz-transition-delay: 0.25s;
+  -webkit-transition-delay: 0.25s;
+  -ms-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+  background: #fff;
+  content: '';
   display: block;
-  font-size: 3vw;
-  padding-left: 2%;
-  padding-bottom: 1%;
-  margin-top: 1%;
-  font-family: "Gothic-2";
-  animation: transitionIn 0.8s;
+  height: 2px;
+  position: absolute;
+  width: 100%;
 }
+
+
+.banner h2::after{
+  -moz-transition: width 0.85s ease;
+  -webkit-transition: width 0.85s ease;
+  -ms-transition: width 0.85s ease;
+  transition: width 0.85s ease;
+  -moz-transition-delay: 0.25s;
+  -webkit-transition-delay: 0.25s;
+  -ms-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+  background: #fff;
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+}
+
+
+.banner h2:before {
+  top: 0;
+  left: 0;
+}
+
+.banner h2:after {
+  bottom: 0;
+  right: 0;
+}
+
+
+
