@@ -5,9 +5,14 @@
 }
 
 body {
-  background-color: #e5ebf1;
+  background-color: #5888b7;
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 0.5s;
 }
+
+@keyframes fadeIn {from {opacity:0} to{opacity:1} }
 
 html {
   box-sizing: border-box;
@@ -23,6 +28,26 @@ html:focus-within {
 
 /* contact.html CSS */
 
+.logo {
+  width: 10vh;
+  margin-left: 1vh;
+      
+}
+
+.footer {
+  background-color: rgba(29, 36, 42, 0.9);
+  padding: 0em 2em 1em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35vh 0 0 0;
+}
+.footerRainyDays, a {
+  margin: 0 1em 0 0;
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
 .error {
   display: none;
   color: red;
@@ -30,6 +55,30 @@ html:focus-within {
 
 .contact {
   text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 4vw;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  font-family: "Gothic-2";
+  animation: transitionIn 0.8s;
+}
+input[type="text"] {
+  border-radius: 299px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  height: 5vw;
+  width: 44vw;
+}
+input[type="number"] {
+  border-radius: 299px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  height: 5vw;
+  width: 44vw;
 }
 
 input {
@@ -43,9 +92,7 @@ input {
 #lastName {
   margin-left: 0vh;
 }
-#number {
-  margin-left: 3vh;
-}
+
 
 .contact-button {
   border-radius: 124px;
@@ -57,35 +104,7 @@ input {
   width: 82%;
 }
 
-.nav-img {
-  width: 107%;
-  margin-top: 76%;
-  margin-left: -3.5%;
-}
 
-.nav-about {
-  margin-top: -45%;
-  margin-bottom: 10%;
-  margin-left: 6%;
-}
-
-.nav-contact-us {
-  margin-top: -45%;
-  margin-bottom: 10%;
-  margin-left: 6%;
-}
-
-.nav-jackets {
-  margin-top: -45%;
-  margin-bottom: 10%;
-  margin-left: 6%;
-}
-
-.nav-vector {
-  margin-top: -35%;
-  margin-bottom: 11.5%;
-  margin-left: 6%;
-}
 .contact-img {
   display: none;
 }
@@ -94,12 +113,21 @@ input {
   display: none;
 }
 
+.welcome_page_button {
+  background-color: #6979f8;
+  border: none;
+  color: white;
+  padding: 4px;
+  margin-top: 5%;
+  border-radius: 3px;
+  display: flex;
+  font-size: 4.9vw;
+  margin-left: 21vw;
+}
+
 /* Media Query For Res: 640 */
 
 @media (min-width: 640px) {
-  .nav {
-    display: none;
-  }
 
   .Back-BTN {
     margin-left: -13%;
@@ -119,18 +147,7 @@ input {
     margin-top: 6%;
   }
 
-  #name {
-    margin-left: 5.2vh;
-    position: relative;
-  }
 
-  #number {
-    margin-left: 3vh;
-    position: relative;
-  }
-  .phone-number {
-    margin-left: 6%;
-  }
   .contact-button {
     border-radius: 124px;
     margin-top: 2%;
@@ -157,10 +174,6 @@ input {
     margin-left: -79%;
   }
 
-  .nav {
-    display: none;
-  }
-
   .contact-img {
     display: block;
     width: 40%;
@@ -171,6 +184,38 @@ input {
   .contact-form {
     margin-top: -28%;
   }
+
+  label {
+    display: block;
+    font-size: 1.9vw;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    font-family: "Gothic-2";
+    animation: transitionIn 0.8s;
+}
+
+
+input[type="text"] {
+  border-radius: 299px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  height: 3.6vw;
+  width: 43vw;
+}
+
+.welcome_page_button {
+  background-color: #6979f8;
+  border: none;
+  color: white;
+  padding: 4px;
+  margin-top: 5%;
+  border-radius: 3px;
+  display: flex;
+  font-size: 2.9vw;
+  margin-left: 19vw;
+}
+
 }
 
 /* Media Query For Res: 1024 */
@@ -191,15 +236,6 @@ input {
     margin-left: 1%;
   }
 
-  .contact-button {
-    border-radius: 124px;
-    margin-top: 1%;
-    margin-left: 0%;
-    margin-bottom: 1%;
-    outline: turquoise;
-    border-color: white;
-    width: 54%;
-  }
   .contact-img {
     display: block;
     width: 33%;
@@ -208,7 +244,24 @@ input {
   }
   .contact-form {
     margin-top: -19%;
+    margin-left: -2vh;
   }
+
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: 2%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.9vw;
+    margin-left: 19vw;
+}
+
+.Contact-us {
+  margin-left: 2vh;
+}
 }
 
 /* Media Query For Res: 1440 */
@@ -251,23 +304,5 @@ input {
     margin-top: -19%;
   }
 
-  #number {
-    margin-left: 3.9vh;
-  }
-
-  #lastName {
-    margin-left: 0.6vh;
-  }
-  #name {
-    margin-left: 6.2vh;
-  }
-  #email {
-    margin-left: 6.6vh;
-  }
-}
-/* Media Query For Res: 1536 */
-@media (min-width: 1536px) {
-  .last-name {
-    margin-left: 4.8%;
-  }
+  
 }
