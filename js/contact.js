@@ -8,6 +8,7 @@ const lastNameError = document.querySelector("#lastNameError");
 const number = document.querySelector("#number");
 const numberError = document.querySelector("#numberError");
 
+
 function formValidator(event) {
   event.preventDefault();
   console.log("hello");

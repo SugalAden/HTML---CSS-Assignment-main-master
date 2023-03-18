@@ -50,7 +50,7 @@ html:focus-within {
 
 .error {
   display: none;
-  color: red;
+  color: #930000;
 }
 
 .contact {
@@ -261,6 +261,10 @@ input[type="text"] {
 
 .Contact-us {
   margin-left: 2vh;
+}
+
+.error {
+  margin-left: 3%;
 }
 }
 
