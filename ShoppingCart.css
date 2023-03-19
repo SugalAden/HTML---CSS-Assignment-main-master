@@ -13,7 +13,7 @@
 }
 
 .product-under {
-  margin-top: 0vh;
+  margin-top: 2vh;
 }
 h6 {
   margin: -15% 3% 15px 1%;
@@ -23,7 +23,7 @@ h6 {
   margin-left: 1%;
   background-color: #6979f8;
   border: none;
-  color: white;
+  color: black;
   border-radius: 1vw;
   height: 6.3vw;
   font-size: 4vw;
@@ -65,7 +65,13 @@ h6 {
   height: 1%;
 }
 h3 {
-  margin-left: 32%;
+  margin-left: 12%;
+}
+h6 {
+  font-size: 2vh;
+}
+.cartContainerText {
+  margin-left: 7vh;
 }
 
 @keyframes fade {
@@ -119,11 +125,11 @@ h3 {
 
 @media screen and (min-width: 768px) {
   .addToCart {
-    margin-top: 1.4%;
-    margin-left: 1%;
+    margin-top: 3.4%;
+    margin-left: 3%;
     background-color: #6979f8;
     border: none;
-    color: white;
+    color: black;
     border-radius: 1vw;
     height: 4.3vw;
     font-size: 3.2vw;
@@ -150,7 +156,7 @@ h3 {
     /* margin-top: 13%; */
 }
   .product-under {
-    margin-top: -4%;
+    margin-top: -4vh;
   }
   h6 {
     margin: -15% 3% 15px 1%;
@@ -166,18 +172,16 @@ h3 {
     margin-left: 0%;
     background-color: #6979f8;
     border: none;
-    color: white;
+    color: black;
     border-radius: 1vw;
     height: 3.3vw;
     font-size: 2.2vw;
 }
 .product-information {
-  font-size: 2.7vw;
-  margin-top: 14%;
+  font-size: 2.4vw;
+    margin-top: 14%;
 }
-.product-under{
-  margin-top: -3%;
-}
+
 
   }
 

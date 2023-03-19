@@ -28,8 +28,6 @@
           <i
               class="fas fa-shopping-cart shoppingCartButton hvr-grow"
           ></i>
-          <!--The total prices of products in the shopping cart -->
-          <h6 id="sum-prices"></h6>
       </div>
   </header>
   <body>
@@ -41,15 +39,15 @@
         </div>
       
       <div class="product-summary hide">
-        <h4 class="productName">Microlight Jacket</h4>
+        <p class="productName">Microlight Jacket</p>
         <span class="stars"></span>
         <p>
             luctus quis et est. Integer pretium
             purus
         </p>
-        <h6 class="price">
+        <p class="price">
             <span class="priceValue">1050</span>
-        </h6>
+        </p>
     </div>
     
     
@@ -57,12 +55,12 @@
       <div class="overlay"></div>
       <div class="top">
           <button id="closeButton">
-              <i class="fas fa-times-circle"></i>
+              <i class="fas fa-times-circle"> Close</i>
           </button>
-          <h3>Cart</h3>
+          <p class="cartContainerText">Cart</p>
       </div>
       <ul id="buyItems">
-          <h4 class="empty">Your shopping cart is empty! :/</h4>
+          <p class="empty">Your shopping cart is empty! :/</p>
     
     </div>
       
@@ -77,13 +75,13 @@
         </section>
 
         <section class="jacketDetails">
-          <p class="jacket-name">Microlight Jacket</p>
-          <p class="jacket-color">Fire red</p>
-          <p class="jacket-price">kr 1 050</p>
+          <h1 class="jacket-name">Microlight Jacket</h1>
+          <h1 class="jacket-color">Fire red</h1>
+          <h1 class="jacket-price">kr 1 050</h1>
           <button class="addToCart hvr-grow" data-product-id="1">Add to cart</button>
           
         </section>
-
+<label>
         <select class="dropdown_menu">
           <option selected disabled hidden> Choose size:</option>
           <option>S</option>
@@ -91,10 +89,10 @@
           <option>L</option>
           <option>XL</option>
         </select>
-    
+   </label> 
 
         <article>
-          <p class="product-information">Product-information</p>
+          <h2 class="product-information">Product-information</h2>
           <p class="product-info">
             The Microlight Jacket is one of our most popular jackets of all
             time. Now the classic has been given a more modern cut and improved

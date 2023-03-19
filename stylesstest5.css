@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #5888b7;
+  background-color: #45a3ff;
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
 @keyframes fadeIn {from {opacity:0} to{opacity:1} }
 .logo {
   width: 10vh;
-  margin-top: -3vh;
+  margin-top: 0vh;
   margin-left: 1vh;
 }
 
@@ -25,11 +25,11 @@ main {
 h1 {
   font-size: 5.8vw;
   text-align: center;
-  margin-left: 4%;
+  margin-left: 3%;
 }
 
 .thankYou {
-  font-size: 5vw;
+  font-size: 3.5vw;
 }
 
 .billing {
@@ -111,7 +111,8 @@ h1 {
   }
 
   .thankYou {
-    font-size: 2vw;
+    font-size: 1.6vw;
+
   }
 
   .billing {

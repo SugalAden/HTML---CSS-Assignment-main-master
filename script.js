@@ -17,7 +17,7 @@ const updateShoppingCartHtml = function () {
     let results = productsinCart.map(product => {
       return `
       <li class="buyItem">
-						<img src="${product.image}">
+						<img src="${product.image}" alt=" a very nice Microlight Jacket">
 						<div>
 							<h5>${product.name}</h5>
 							<h6>kr ${product.price}</h6>

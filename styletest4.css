@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #5888b7;
+  background-color: #45a3ff;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   height: fit-content;
@@ -18,7 +18,7 @@ body {
 .logo {
   width: 10vh;
   margin-left: 1vh;
-  margin-top: -2vh;
+  margin-top: 0vh;
 }
 
 .contact_us_form {
@@ -60,10 +60,14 @@ input[type="number"] {
 } */
 
 .myOrderDetails {
-  font-size: 5vw;
-  margin-left: -13%;
-  margin-top: -16%;
+  font-size: 4vw;
+  margin-left: -14%;
+  margin-top: -9%;
   grid-area: jacket2;
+}
+
+.my-order_jacket {
+  font-size: 4vw;
 }
 .my-order {
   display: grid;
@@ -323,6 +327,11 @@ h1 {
     margin-left: -3%;
     font-size: 2.5vw;
   }
+
+
+  .my-order_jacket {
+    font-size: 3vw;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -331,13 +340,16 @@ h1 {
 
     text-align: center;
   }
-
   .myOrderDetails {
-    font-size: 2.4vw;
-    margin-left: -37%;
-    margin-top: -1%;
+    font-size: 1.7vw;
+    margin-left: -49%;
+    margin-top: -2%;
     grid-area: jacket2;
-  }
+}
+
+.my-order_jacket {
+  font-size: 2vw;
+}
 
   #name {
     margin-bottom: 1%;
@@ -366,12 +378,6 @@ h1 {
     display: grid;
     grid-template-areas: "jacket1 jacket2";
     margin-left: 33%;
-  }
-  .myOrderDetails {
-    font-size: 1.7vw;
-    margin-left: -56%;
-    margin-top: -2%;
-    grid-area: jacket2;
   }
 }
 

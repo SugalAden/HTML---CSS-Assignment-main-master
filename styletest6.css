@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: #5888b7;
+    background-color: #45a3ff;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     height: fit-content;
@@ -49,15 +49,16 @@
     text-shadow: 0px 4px 17px rgb(0 0 0), 0px 4px 4px rgb(0 0 0 / 25%);
   }
   .welcome_page_button {
-    background-color: #6979f8;
+    background-color: rgb(127 140 239);
     border: none;
-    color: white;
+    color: black;
     padding: 4px;
     margin-top: -4vw;
     border-radius: 3px;
     display: flex;
     font-size: 2.4vh;
     margin-left: -9vw;
+    text-shadow: 0px 4px 97px rgb(0 0 0), 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
 .bestSellingJackets {
@@ -65,7 +66,7 @@
     flex-direction: column;
     align-items: center;
     margin: -2vh 0 0 0;
-    font-size: 5vw;
+    font-size: 2.3vh;
 }
 
 #jacketContainer {
@@ -119,10 +120,11 @@
 }
 .learnMore {
     color: white;
-    margin: 84vh 4vh 0 0;
+    margin: 84vh 8vh 0 0;
     font-size: 3vh;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
+    background-color: #000000;
 }
 
 .Bookmark {
@@ -148,13 +150,14 @@
     .welcome_page_button {
         background-color: #6979f8;
         border: none;
-        color: white;
+        color: black;
         padding: 4px;
         margin-top: -2vh;
         border-radius: 3px;
         display: flex;
         font-size: 2.1vw;
         margin-left: -6vh;
+        text-shadow: 0px 4px 97px rgb(0 0 0), 0px 4px 4px rgb(0 0 0 / 25%);
     }
 
     h3 {
