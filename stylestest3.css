@@ -55,6 +55,7 @@ body {
 
 .product-information {
   font-size: 6vw;
+  margin-top: 13%;
 }
 
 footer {
@@ -74,6 +75,18 @@ footer {
 }
 h3 {
   font-size: 2vh;
+}
+
+.addToCart {
+  margin-top: 15.4%;
+  margin-left: 1%;
+  background-color: #6979f8;
+  border: none;
+  color: black;
+  border-radius: 1vw;
+  height: 6.3vw;
+  font-size: 4vw;
+  position: absolute;
 }
 
 
@@ -99,6 +112,7 @@ h3 {
   .product-information {
     font-size: 3.3vw;
     text-align: center;
+    margin-top: 7%;
   }
 
   .product-info {
@@ -128,6 +142,16 @@ h3 {
     font-size: 4.3vw;
     margin-left: 79vw;
   }
+  .addToCart {
+    margin-top: 7.4%;
+    margin-left: 3%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 1vw;
+    height: 4.3vw;
+    font-size: 3.2vw;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -146,6 +170,7 @@ h3 {
   .product-information {
     font-size: 2vw;
     text-align: center;
+    margin-top: 14%;
   }
   .dropdown_menu {
     width: 42vw;
@@ -170,6 +195,16 @@ h3 {
     font-size: 2.3vw;
     margin-left: 31vw;
   }
+  .addToCart {
+    margin-top: 5.4%;
+    margin-left: 0%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 1vw;
+    height: 3.3vw;
+    font-size: 2.2vw;
+}
 }
 
 @media screen and (min-width: 1440px) {
@@ -192,8 +227,10 @@ h3 {
   }
 
   .product-information {
-    font-size: 2.2vw;
     text-align: center;
+    margin-top: 7%;
+    margin-left: -6%;
+    font-size: 2.4vw;
   }
   .product-info {
     text-align: center;
