@@ -11,7 +11,14 @@ body {
   padding: 0;
   animation: fadeIn 0.5s;
 }
-@keyframes fadeIn {from {opacity:0} to{opacity:1} }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .logo {
   width: 10vh;
   margin-left: 1vh;
@@ -26,7 +33,7 @@ body {
 
 .jacketDetails {
   font-size: 6vw;
-    margin-top: -4%;
+  margin-top: -4%;
 }
 .dropdown_menu {
   border-radius: -74px;
@@ -67,8 +74,8 @@ footer {
   margin: 5vh 0 0 0;
 }
 
-
-.footerRainyDays, a {
+.footerRainyDays,
+a {
   margin: 0 1em 0 0;
   color: #bfbfbf;
   text-decoration: none;
@@ -89,7 +96,6 @@ h3 {
   position: absolute;
 }
 
-
 @media screen and (min-width: 768px) {
   .spesificJacketContainer {
     display: flex;
@@ -107,7 +113,6 @@ h3 {
   .jacketDetails {
     font-size: 3.3vw;
     margin-left: 4%;
-    
   }
   .product-information {
     font-size: 3.3vw;
@@ -151,7 +156,7 @@ h3 {
     border-radius: 1vw;
     height: 4.3vw;
     font-size: 3.2vw;
-}
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -197,14 +202,14 @@ h3 {
   }
   .addToCart {
     margin-top: 5.4%;
-    margin-left: 0%;
+    margin-left: 1.7%;
     background-color: #6979f8;
     border: none;
     color: black;
     border-radius: 1vw;
     height: 3.3vw;
     font-size: 2.2vw;
-}
+  }
 }
 
 @media screen and (min-width: 1440px) {

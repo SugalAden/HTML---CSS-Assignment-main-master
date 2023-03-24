@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles5.css" rel="stylesheet" />
-    <title>Checkout Success</title>
+    <link href="/css/checkout-success.css" rel="stylesheet" />
+    <link href="/css/hover.css" rel="stylesheet" />
+    <title>Success</title>
    <!-- Hotjar Tracking Code for https://chimerical-frangollo-8cbef9.netlify.app/home2.html#jacketContainer -->
 <script>
   (function(h,o,t,j,a,r){
@@ -18,61 +19,57 @@
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
   </head>
+  <header>
+   
+      <section>
+        <a href="home.html">
+        <img
+          src="/images/RainyDays_Logo%201.png"
+          class="logo"
+          alt="Header logo"
+        />
+    </a>
+    <h1>Order confirmation</h1>
+      </section>
+  </header>
   <body>
-    <header class="order-confirmation">
-      <a href="home2.html">
-        <img src="/images/Back%20BTN.png" class="Back-BTN" alt="Back button" />
-      </a>
-      <h1>Order confirmation</h1>
-      <p class="thank-you">Thank you!</p>
-      <p class="order-placed">Your order has been placed!</p>
-      <p class="email-sent">
-        We sent an email to johnTrafek@gmail.com with your order confirmation
-        and bill!
-      </p>
-    </header>
+
 
     <main>
-      <section class="billing">
-        <p class="billing-title">Billing</p>
-        <p class="customer-name">JohnTrafek@gmail.com</p>
-        <p class="customer-number">+1 1234164938</p>
-        <p class="customer-address">Voorburwal 334-3</p>
-        <img
-          src="/images/Billing-rectangle.png"
-          class="billing-rectangle"
-          alt="Rectangle for billing"
-        />
+        <section class="thankYou">
+        <h2 class="thank-you">Thank you!</h2>
+        <h3 class="order-placed">Your order has been placed!</h3>
+        <h3 class="email-sent">
+          We sent you an email with your order confirmation
+          and bill!
+        </h3>    
+    </section>
+    
+    </section>
+    
+      <section class="OrderConfirmationImg">
         <img
           src="/images/Order-confirmation_img.png"
-          class="Order-confirmation_img"
-          alt="order-confirmation image"
+          class="Order-confirmation_img hvr-pop"
+          alt=" this is a confirmation image after your order is succesful"
         />
       </section>
 
-      <section class="home-button">
-        <a href="home.html">
-          <input type="submit" value="Back home" class="home-button" />
-        </a>
-      </section>
 
-      <section class="nav">
-        <img
-          src="/images/Nav_rectangle%201.png"
-          class="nav-img"
-          alt="Rectangle for the nav"
-        />
-        <a href="about.html">
-          <img src="/images/about.png" class="nav-about" alt="about" />
-        </a>
-        <a href="contact.html">
-          <img src="/images/User_02.png" class="nav-contact-us" alt="contact" />
-        </a>
+      <section class="submit_btn">
         <a href="jackets.html">
-          <img src="/images/Bag%202.png" class="nav-jackets" alt="jackets" />
-        </a>
-        <img src="/images/Vector.png" class="nav-vector" alt="search" />
-      </section>
+        <button class="welcome_page_button hvr-grow">Take a look at more Jackets!</button>
+    </a>
+        </section>
+
+    </section>
     </main>
+
+    <footer class="footer">
+      <p class="footerRainyDays">&copy; RainyDays<p>
+       <a href="about.html">About Us</a>
+       <a href="contact.html">Contact Us</a>
+</footer>
+
   </body>
 </html>

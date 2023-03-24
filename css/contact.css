@@ -12,7 +12,14 @@ body {
   animation: fadeIn 0.5s;
 }
 
-@keyframes fadeIn {from {opacity:0} to{opacity:1} }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 html {
   box-sizing: border-box;
@@ -31,7 +38,6 @@ html:focus-within {
 .logo {
   width: 10vh;
   margin-left: 1vh;
-      
 }
 
 .footer {
@@ -42,7 +48,8 @@ html:focus-within {
   align-items: center;
   margin: 35vh 0 0 0;
 }
-.footerRainyDays, a {
+.footerRainyDays,
+a {
   margin: 0 1em 0 0;
   color: #bfbfbf;
   text-decoration: none;
@@ -93,7 +100,6 @@ input {
   margin-left: 0vh;
 }
 
-
 .contact-button {
   border-radius: 124px;
   margin-top: 5%;
@@ -103,7 +109,6 @@ input {
   border-color: white;
   width: 82%;
 }
-
 
 .contact-img {
   display: none;
@@ -128,7 +133,6 @@ input {
 /* Media Query For Res: 640 */
 
 @media (min-width: 640px) {
-
   .Back-BTN {
     margin-left: -13%;
   }
@@ -146,7 +150,6 @@ input {
   .contact-form {
     margin-top: 6%;
   }
-
 
   .contact-button {
     border-radius: 124px;
@@ -193,29 +196,27 @@ input {
     margin-top: 1%;
     font-family: "Gothic-2";
     animation: transitionIn 0.8s;
-}
+  }
 
+  input[type="text"] {
+    border-radius: 299px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    height: 3.6vw;
+    width: 43vw;
+  }
 
-input[type="text"] {
-  border-radius: 299px;
-  background-color: #ffffff;
-  border: 1px solid #000000;
-  height: 3.6vw;
-  width: 43vw;
-}
-
-.welcome_page_button {
-  background-color: #6979f8;
-  border: none;
-  color: white;
-  padding: 4px;
-  margin-top: 5%;
-  border-radius: 3px;
-  display: flex;
-  font-size: 2.9vw;
-  margin-left: 19vw;
-}
-
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: white;
+    padding: 4px;
+    margin-top: 5%;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.9vw;
+    margin-left: 19vw;
+  }
 }
 
 /* Media Query For Res: 1024 */
@@ -257,15 +258,15 @@ input[type="text"] {
     display: flex;
     font-size: 2.9vw;
     margin-left: 19vw;
-}
+  }
 
-.Contact-us {
-  margin-left: 2vh;
-}
+  .Contact-us {
+    margin-left: 2vh;
+  }
 
-.error {
-  margin-left: 3%;
-}
+  .error {
+    margin-left: 3%;
+  }
 }
 
 /* Media Query For Res: 1440 */
@@ -307,6 +308,4 @@ input[type="text"] {
   .contact-form {
     margin-top: -19%;
   }
-
-  
 }
