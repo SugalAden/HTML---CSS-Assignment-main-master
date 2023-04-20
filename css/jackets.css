@@ -11,7 +11,14 @@ body {
   padding: 0;
   animation: fadeIn 0.5s;
 }
-@keyframes fadeIn {from {opacity:0} to{opacity:1} }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 .logo {
   width: 10vh;
@@ -37,6 +44,7 @@ body {
 
 .microLightJacket {
   grid-area: jacket1;
+  margin-top: -3vh;
 }
 
 .expeditionJacket {
@@ -50,6 +58,29 @@ body {
 .ulrikenJacket {
   grid-area: jacket4;
 }
+.rain-jacket {
+  margin-left: -2vh;
+}
+
+button {
+  position: absolute;
+  left: 79vw;
+  top: 1vw;
+  position: absolute;
+  left: 79vw;
+  top: 1vw;
+  position: absolute;
+  left: 59vw;
+  top: -5vw;
+  margin-top: 5.4%;
+  margin-left: 1.7%;
+  background-color: #6979f8;
+  border: none;
+  color: black;
+  border-radius: 23vw;
+  height: 4.3vh;
+  font-size: 2vh;
+}
 .footer {
   background-color: rgba(29, 36, 42, 0.9);
   padding: 0em 2em 1em 2em;
@@ -59,13 +90,12 @@ body {
   margin: 35vh 0 0 0;
 }
 
-
-.footerRainyDays, a {
+.footerRainyDays,
+a {
   margin: 0 1em 0 0;
   color: #bfbfbf;
   text-decoration: none;
 }
-
 
 @media screen and (min-width: 768px) {
   h1 {
@@ -94,6 +124,26 @@ body {
     grid-area: jacket4;
     margin-left: 4%;
   }
+
+  button {
+    position: absolute;
+    left: 79vw;
+    top: 1vw;
+    position: absolute;
+    left: 79vw;
+    top: 1vw;
+    position: absolute;
+    left: 59vw;
+    top: -5vw;
+    margin-top: 5.4%;
+    margin-left: 1.7%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 23vw;
+    height: 4.3vh;
+    font-size: 2vh;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -104,6 +154,21 @@ body {
       "jacket3 jacket4";
     margin-left: 36%;
     grid-template-columns: max-content;
+  }
+
+  button {
+    position: absolute;
+    left: 79vw;
+    top: -5vw;
+    font-size: 1.9vh;
+    margin-top: 5.4%;
+    margin-left: 1.7%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 1vw;
+    height: 2.3vw;
+    font-size: 1.2vw;
   }
 }
 

@@ -68,7 +68,7 @@ input[type="number"] {
 
 .myOrderDetails {
   font-size: 4vw;
-  margin-left: -14%;
+  margin-left: -44%;
   margin-top: -9%;
   grid-area: jacket2;
 }
@@ -180,12 +180,13 @@ td {
 }
 
 .orderJacket {
-  grid-area: jacket1;
   width: 35vw;
+  margin-left: -2%;
 }
 
 h1 {
   font-size: 7vw;
+  margin-left: 3%;
 }
 
 .footer {
@@ -203,6 +204,7 @@ a {
   color: #bfbfbf;
   text-decoration: none;
 }
+
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 4.6vw;
@@ -354,8 +356,19 @@ a {
     grid-area: jacket2;
   }
 
-  .my-order_jacket {
+  .my-order_jacket,
+  .my-order_color,
+  .my-order_price {
     font-size: 2vw;
+    margin-top: -1%;
+    margin-left: 21%;
+  }
+
+  .orderJacket {
+    grid-area: jacket1;
+    width: 14vw;
+    margin-bottom: -22%;
+    margin-left: -4%;
   }
 
   #name {
@@ -385,6 +398,13 @@ a {
     display: grid;
     grid-template-areas: "jacket1 jacket2";
     margin-left: 33%;
+  }
+  .contactForm {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
   }
 }
 

@@ -1,234 +1,243 @@
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Light.ttf") format("ttf"),
-      url("/fonts/OpenSans-Light.ttf") format("ttf");
-  }
-  
-  body {
-    background-color: #45a3ff;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    height: fit-content;
-    margin: 0;
-    animation: fadeIn 3s;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Light.ttf") format("ttf"),
+    url("/fonts/OpenSans-Light.ttf") format("ttf");
+}
 
-  @keyframes fadeIn {from {opacity:0} to{opacity:1} }
-  .logo {
-    width: 10vh;
-        margin-left: 1vh;
-  }
+body {
+  background-color: #45a3ff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  height: fit-content;
+  margin: 0;
+  animation: fadeIn 3s;
+}
 
-  .banner {
-    white-space: pre-line;
-    letter-spacing: 0.225em;
-    text-transform: uppercase;
-    color: white;
-   
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .bannerContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(/images/AdobeStock_240009311\ \(1\).jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 95vh;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  h1 {
-    margin: 25vh 0 0 0;
-    font-size: 5vw;
-    text-shadow: 0px 4px 17px rgb(0 0 0), 0px 4px 4px rgb(0 0 0 / 25%);
+  to {
+    opacity: 1;
   }
-  .welcome_page_button {
-    background-color: rgb(127 140 239);
-    border: none;
-    color: black;
-    padding: 4px;
-    margin-top: -4vw;
-    border-radius: 3px;
-    display: flex;
-    font-size: 2.4vh;
-    margin-left: -9vw;
-    text-shadow: 0px 4px 97px rgb(0 0 0), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.logo {
+  width: 10vh;
+  margin-left: 1vh;
+}
+
+.banner {
+  white-space: pre-line;
+  letter-spacing: 0.225em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.bannerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/images/AdobeStock_240009311.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+}
+
+h1 {
+  margin: 25vh 0 0 0;
+  font-size: 5vw;
+  text-shadow: 0px 4px 17px rgb(0 0 0), 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.welcome_page_button {
+  background-color: rgb(127 140 239);
+  border: none;
+  color: black;
+  padding: 4px;
+  margin-top: -4vw;
+  border-radius: 3px;
+  display: flex;
+  font-size: 2.4vh;
+  margin-left: -9vw;
+  text-shadow: 0px 4px 97px rgb(0 0 0), 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
 .bestSellingJackets {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin: -2vh 0 0 0;
-    font-size: 2.3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -2vh 0 0 0;
+  font-size: 2.3vh;
 }
 
 #jacketContainer {
+  display: grid;
+  grid-template-areas:
+    "jacket1 jacket2"
+    "jacket3 jacket4";
+  margin-left: 9vh;
+}
+
+.microLightJacket {
+  grid-area: jacket1;
+}
+
+.expeditionJacket {
+  grid-area: jacket2;
+}
+
+.senjaJacket {
+  grid-area: jacket3;
+}
+
+.ulrikenJacket {
+  grid-area: jacket4;
+}
+
+.microlight-jacket_img,
+.expedions-jacket_img,
+.ulriken-jacket,
+.senja-jacket_img {
+  width: 31vw;
+  margin-left: -1vh;
+}
+
+.footer {
+  background-color: rgba(29, 36, 42, 0.9);
+  padding: 0em 2em 1em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rainyDays,
+a {
+  margin: 0 1em 0 0;
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+.arrowImg {
+  width: 16%;
+  margin-left: 5.9vh;
+  margin-top: 1vh;
+}
+.learnMore {
+  color: white;
+  margin: 84vh 8vh 0 0;
+  font-size: 3vh;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  background-color: #000000;
+}
+
+.Bookmark {
+  position: absolute;
+}
+.submit_btn {
+  z-index: 1;
+}
+
+.homeVideo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    margin: 25vh 0 0 0;
+    font-size: 3vw;
+  }
+  .homeVideo {
+    display: none;
+  }
+
+  .welcome_page_button {
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    padding: 4px;
+    margin-top: -2vh;
+    border-radius: 3px;
+    display: flex;
+    font-size: 2.1vw;
+    margin-left: -6vh;
+    text-shadow: 0px 4px 97px rgb(0 0 0), 0px 4px 4px rgb(0 0 0 / 25%);
+  }
+
+  h3 {
+    font-size: 3vw;
+  }
+
+  #jacketContainer {
     display: grid;
     grid-template-areas:
       "jacket1 jacket2"
       "jacket3 jacket4";
-      margin-left: 9vh;
+    padding: 14vw;
+    margin-top: -14vw;
+    margin-left: 15vw;
   }
-  
-  .microLightJacket {
-    grid-area: jacket1;
-  }
-  
-  .expeditionJacket {
-    grid-area: jacket2;
-  }
-  
-  .senjaJacket {
-    grid-area: jacket3;
-  }
-  
-  .ulrikenJacket {
-    grid-area: jacket4;
-  }
-
-
-  .microlight-jacket_img, .expedions-jacket_img, .ulriken-jacket, .senja-jacket_img {
-    width: 31vw;
+  .microlight-jacket_img,
+  .expedions-jacket_img,
+  .ulriken-jacket,
+  .senja-jacket_img {
+    width: 18vw;
     margin-left: -1vh;
+  }
 }
 
-
-.footer {
+@media screen and (min-width: 1024px) {
+  .microlight-jacket_img,
+  .expedions-jacket_img,
+  .ulriken-jacket,
+  .senja-jacket_img {
+    width: 11vw;
+    margin-left: -1vh;
+  }
+  #jacketContainer {
+    display: grid;
+    grid-template-areas:
+      "jacket1 jacket2"
+      "jacket3 jacket4";
+    padding: 29vw;
+    margin-top: -29vw;
+    margin-left: 7vw;
+  }
+  h3 {
+    font-size: 2.2vw;
+  }
+  .homeVideo {
+    display: block;
+    width: 400px;
+    margin-top: -28%;
+    margin-left: 35vw;
+    margin-bottom: 43%;
+    border-radius: 26px;
+  }
+  .footer {
     background-color: rgba(29, 36, 42, 0.9);
     padding: 0em 2em 1em 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.rainyDays, a {
-    margin: 0 1em 0 0;
-    color: #bfbfbf;
-    text-decoration: none;
-}
-
-.arrowImg {
-    width: 16%;
-    margin-left: 5.9vh;
-    margin-top: 1vh;
-}
-.learnMore {
-    color: white;
-    margin: 84vh 8vh 0 0;
-    font-size: 3vh;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    background-color: #000000;
-}
-
-.Bookmark {
-    position: absolute;
-}
-.submit_btn {
-    z-index: 1;
+    margin-top: -35%;
   }
-
-  .homeVideo {
-    display: none
-}
-
-@media screen and (min-width: 768px) {
-    h1 {
-        margin: 25vh 0 0 0;
-        font-size: 3vw;
-    }
-    .homeVideo {
-        display: none
-    }
-
-    .welcome_page_button {
-        background-color: #6979f8;
-        border: none;
-        color: black;
-        padding: 4px;
-        margin-top: -2vh;
-        border-radius: 3px;
-        display: flex;
-        font-size: 2.1vw;
-        margin-left: -6vh;
-        text-shadow: 0px 4px 97px rgb(0 0 0), 0px 4px 4px rgb(0 0 0 / 25%);
-    }
-
-    h3 {
-        font-size: 3vw;
-    }
-
-    
-    #jacketContainer {
-        display: grid;
-        grid-template-areas:
-            "jacket1 jacket2"
-            "jacket3 jacket4";
-        padding: 14vw;
-        margin-top: -14vw;
-        margin-left: 15vw;
-    }
-    .microlight-jacket_img, .expedions-jacket_img, .ulriken-jacket, .senja-jacket_img {
-        width: 18vw;
-        margin-left: -1vh;
-    }
-   
-}
-
-@media screen and (min-width: 1024px) {
-    .microlight-jacket_img, .expedions-jacket_img, .ulriken-jacket, .senja-jacket_img {
-        width: 11vw;
-        margin-left: -1vh;
-    }
-    #jacketContainer {
-        display: grid;
-        grid-template-areas:
-            "jacket1 jacket2"
-            "jacket3 jacket4";
-        padding: 29vw;
-        margin-top: -29vw;
-        margin-left: 7vw;
-    }
-    h3 {
-        font-size: 2.2vw;
-    }
-    .homeVideo {
-        display: block;
-        width: 400px;
-        margin-top: -28%;
-        margin-left: 35vw;
-        margin-bottom: 43%;
-        border-radius: 26px;
-    }
-    .footer {
-        background-color: rgba(29, 36, 42, 0.9);
-        padding: 0em 2em 1em 2em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: -38%;
-
-}
 }
 
 @media screen and (min-width: 1440px) {
-    .homeVideo {
-        display: block;
-    }
-    .footer {
-        background-color: rgba(29, 36, 42, 0.9);
-        padding: 0em 2em 1em 2em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: -2%;
+  .homeVideo {
+    display: block;
+  }
+  .footer {
+    background-color: rgba(29, 36, 42, 0.9);
+    padding: 0em 2em 1em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2%;
+  }
 }
-}
-  
-  

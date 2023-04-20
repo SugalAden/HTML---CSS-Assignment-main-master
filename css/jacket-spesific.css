@@ -37,7 +37,7 @@ body {
 }
 .dropdown_menu {
   border-radius: -74px;
-  width: 97vw;
+  width: 94vw;
   margin-top: -5%;
   border-radius: 44px;
 }
@@ -96,11 +96,29 @@ h3 {
   position: absolute;
 }
 
+.jacket-name,
+.jacket-color,
+.jacket-price {
+  font-weight: 700;
+  font-size: 6vw;
+  margin-top: 1vh;
+}
+.product-info {
+  font-size: 5vw;
+  white-space: pre-line;
+  margin-top: -3%;
+}
+
 @media screen and (min-width: 768px) {
   .spesificJacketContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .product-info {
+    text-align: center;
+    font-size: 3.3vw;
+    margin-top: -3%;
   }
 
   .microlightJacketSpesific {
@@ -118,12 +136,6 @@ h3 {
     font-size: 3.3vw;
     text-align: center;
     margin-top: 7%;
-  }
-
-  .product-info {
-    text-align: center;
-    font-size: 3.3vw;
-    margin-top: -6%;
   }
 
   .dropdown_menu {
@@ -149,13 +161,19 @@ h3 {
   }
   .addToCart {
     margin-top: 7.4%;
-    margin-left: 3%;
+    margin-left: -9%;
     background-color: #6979f8;
     border: none;
     color: black;
     border-radius: 1vw;
     height: 4.3vw;
     font-size: 3.2vw;
+  }
+  .jacket-name,
+  .jacket-color,
+  .jacket-price {
+    font-weight: 700;
+    font-size: 3vw;
   }
 }
 
@@ -167,6 +185,11 @@ h3 {
     border: 1px solid #000000;
   }
 
+  .product-information {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 6%;
+  }
   .jacketDetails {
     font-size: 1.8vw;
     margin-top: -1%;
@@ -175,7 +198,13 @@ h3 {
   .product-information {
     font-size: 2vw;
     text-align: center;
-    margin-top: 14%;
+    margin-top: 7%;
+  }
+  .jacket-name,
+  .jacket-color,
+  .jacket-price {
+    font-weight: 700;
+    font-size: 2vw;
   }
   .dropdown_menu {
     width: 42vw;
@@ -186,7 +215,7 @@ h3 {
   .product-info {
     text-align: center;
     font-size: 1.1vw;
-    margin-top: -5%;
+    margin-top: 0%;
   }
 
   .welcome_page_button {
@@ -202,7 +231,7 @@ h3 {
   }
   .addToCart {
     margin-top: 5.4%;
-    margin-left: 1.7%;
+    margin-left: -6.3%;
     background-color: #6979f8;
     border: none;
     color: black;
@@ -240,7 +269,7 @@ h3 {
   .product-info {
     text-align: center;
     font-size: 1.9vw;
-    margin-top: -6vh;
+    margin-top: -3vh;
   }
 
   .welcome_page_button {
@@ -253,5 +282,15 @@ h3 {
     display: flex;
     font-size: 2.9vw;
     margin-left: 64vw;
+  }
+  .addToCart {
+    margin-top: 5.4%;
+    margin-left: -7.3%;
+    background-color: #6979f8;
+    border: none;
+    color: black;
+    border-radius: 1vw;
+    height: 3.3vw;
+    font-size: 2.2vw;
   }
 }
